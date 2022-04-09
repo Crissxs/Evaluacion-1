@@ -1,0 +1,176 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0;
+    margin: 0;
+}
+#encabezado>hr{
+    border-top: 0px;
+    border-bottom: 1px solid black;
+
+}
+hr{ 
+    margin:0;
+    border-top: 2px dotted #333333;
+
+}
+#header {
+    display: flex;
+    background-color: #333333;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+    transition-duration: 0.5s;
+}
+#header:hover{
+    background-color: #000000;
+    transition-duration: 0.5s;
+}
+
+#logo{
+    margin-right: 10px;
+    margin-top: 5px;
+}
+#menu>a{
+    margin-left:40px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding-bottom: 17px;
+}
+#menu>a:hover{
+    border-bottom: cyan solid;
+}
+#perfil>a{
+    margin-left: 910px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding-bottom: 17px;
+}
+#perfil>a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding-bottom: 17px;
+}
+#perfil>a:hover{
+    border-bottom: cyan solid;
+}
+#redes{
+    display: flex;
+    justify-content: center;
+}
+.red{
+    align-items: center;
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+.red:hover{
+    background-color: yellowgreen;
+    transition-duration: 0.5s;
+}
+
+#Puf{
+   padding-top: 20px;
+   display: flex;
+}
+#Puf>p{
+    padding-top: 20px;
+    display: flex;
+justify-content: center;
+align-items: center;
+ }
+
+#Fuente>p{
+    padding-top: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+#Fuente{
+    padding-top: 20px;
+    display: flex;
+
+}
+
+#Pagar{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+#cuerpo{
+    padding-top: 100px;
+    background-image: url("images/fondodescuento.jpg");
+    min-height: 120vh;
+}
+
+#fondo_carrito{
+    background-color: rgba(240, 248, 255, 0.966);
+    margin: 10px;
+    padding: 10px 10px 400px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo{        
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.titulo>p{
+    display: flex;
+    justify-content: center;
+    padding-left: 300px;
+}
+
+#carrito_left{
+    padding: 10px 20px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+#carrito_right{
+    padding: 10px 40px 10px 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+#lista_venta{    
+    display: flex;
+    flex-direction: column;   
+    
+}
+
+.descripcion{
+    display: flex;
+    justify-content: space-between; 
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+    padding: 10px
+}
+.button>div{
+    display: flex;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.info{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.resumen_compra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20px;
+}
